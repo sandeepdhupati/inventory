@@ -1,0 +1,6 @@
+com/example/inventory/InventoryManagementApplication.class
+com/example/inventory/controller/ItemController.class
+com/example/inventory/repository/ItemRepository.class
+com/example/inventory/repository/ItemJpaRepository.class
+com/example/inventory/model/Item.class
+com/example/inventory/service/ItemJpaService.class
