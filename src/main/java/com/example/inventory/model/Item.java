@@ -16,11 +16,11 @@ import javax.persistence.*;
 public class Item {
 
     @Id
-    @Column(name = "itemId")
+    @Column(name = "itemid")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int itemId;
 
-    @Column(name = "itemName")
+    @Column(name = "itemname")
     private String itemName;
 
     @Column(name = "quantity")
