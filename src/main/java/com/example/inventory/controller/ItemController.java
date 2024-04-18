@@ -40,7 +40,7 @@ public class ItemController {
     }
 
     @DeleteMapping("/items/{itemId}")
-    public void deleteItem(@PathVariable int itemId) {
+    public void deleteItem(@PathVariable("itemId") int itemId) {
         itemService.deleteItem(itemId);
     }
 
